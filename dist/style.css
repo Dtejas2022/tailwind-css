@@ -572,6 +572,18 @@ video {
   margin-top: 0.5rem;
 }
 
+.mt-3 {
+  margin-top: 0.75rem;
+}
+
+.mt-1 {
+  margin-top: 0.25rem;
+}
+
+.block {
+  display: block;
+}
+
 .flex {
   display: flex;
 }
@@ -588,8 +600,16 @@ video {
   height: 100vh;
 }
 
+.h-48 {
+  height: 12rem;
+}
+
 .w-12 {
   width: 3rem;
+}
+
+.w-full {
+  width: 100%;
 }
 
 .max-w-sm {
@@ -610,12 +630,20 @@ video {
   margin-left: calc(1rem * calc(1 - var(--tw-space-x-reverse)));
 }
 
+.overflow-hidden {
+  overflow: hidden;
+}
+
 .rounded-xl {
   border-radius: 0.75rem;
 }
 
 .rounded-lg {
   border-radius: 0.5rem;
+}
+
+.rounded {
+  border-radius: 0.25rem;
 }
 
 .bg-sky-500 {
@@ -633,12 +661,38 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
+.bg-yellow-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(234 179 8 / var(--tw-bg-opacity));
+}
+
+.object-cover {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
 .p-6 {
   padding: 1.5rem;
 }
 
 .p-2 {
   padding: 0.5rem;
+}
+
+.p-8 {
+  padding: 2rem;
+}
+
+.p-3 {
+  padding: 0.75rem;
+}
+
+.p-\[\] {
+  padding: ;
+}
+
+.p-\[2px\] {
+  padding: 2px;
 }
 
 .text-center {
@@ -660,8 +714,30 @@ video {
   line-height: 1.5rem;
 }
 
+.text-sm {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
+.text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
 .font-medium {
   font-weight: 500;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
+.font-semibold {
+  font-weight: 600;
+}
+
+.uppercase {
+  text-transform: uppercase;
 }
 
 .text-black {
@@ -677,6 +753,11 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.text-indigo-500 {
+  --tw-text-opacity: 1;
+  color: rgb(99 102 241 / var(--tw-text-opacity));
 }
 
 .shadow-lg {
@@ -695,6 +776,11 @@ video {
   color: rgb(0 0 0 / var(--tw-text-opacity));
 }
 
+.hover\:text-blue-500:hover {
+  --tw-text-opacity: 1;
+  color: rgb(59 130 246 / var(--tw-text-opacity));
+}
+
 @media (min-width: 640px) {
   .sm\:text-red-500 {
     --tw-text-opacity: 1;
@@ -703,6 +789,22 @@ video {
 }
 
 @media (min-width: 768px) {
+  .md\:flex {
+    display: flex;
+  }
+
+  .md\:h-full {
+    height: 100%;
+  }
+
+  .md\:w-48 {
+    width: 12rem;
+  }
+
+  .md\:max-w-2xl {
+    max-width: 42rem;
+  }
+
   .md\:text-green-500 {
     --tw-text-opacity: 1;
     color: rgb(34 197 94 / var(--tw-text-opacity));
